@@ -8,7 +8,7 @@ function App() {
       style={{ backgroundColor: "#09050F" }}
     >
       <div className="min-h-full w-full px-40  h-screen">
-        <div className="w-full flex flex-row justify-between text-xl py-20">
+        <div className="w-full flex flex-row justify-between text-xl py-20 ">
           <div className="">Hema, Front-End</div>
           <div className="flex flex-row space-x-4">
             <a href="#">Present</a>
@@ -16,10 +16,10 @@ function App() {
             <a href="#">Skills</a>
           </div>
         </div>
-        <div className="h-full w-full   flex flex-row">
-          <div className="w-4/6 ">
+        <div className=" w-full flex flex-row space-x-7">
+          <div className="w-11/12 ">
             <div
-              className="h-2/4 w-full p-7 rounded-tr-4xl rounded-bl-4xl "
+              className="h-full w-full p-12 rounded-tl-3xl rounded-tr-4xl rounded-bl-4xl space-y-10"
               style={{ backgroundColor: "#313849" }}
             >
               <div>
@@ -29,33 +29,59 @@ function App() {
                       <div
                         style={{
                           backgroundImage:
-                            'url("https://www.nj.com/resizer/zovGSasCaR41h_yUGYHXbVTQW2A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg")',
+                            'url("https://necatikcl.dev/images/card-hello-memoji.png")',
                         }}
-                        className="h-14 w-14 bg-cover bg-center rounded-full"
+                        className="h-11 w-11 bg-cover bg-center rounded-full"
                       ></div>
                     </div>
-                    <div className="flex flex-col place-items-start">
-                      <span>Hi, Im Hema</span>
-                      <span>Front-end developer</span>
+                    <div className="flex flex-col place-items-start ">
+                      <span className="text-xl">Hi, Im Hema</span>
+                      <span className="text-gray-400">Front-end developer</span>
                     </div>
                   </div>
-                  <div className="bg-orange-500 flex flex-row space-x-4">
-                    <a href="#">Present</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Skills</a>
+                  <div className="flex flex-row space-x-6 place-items-center justify-between align-middle">
+                    <a
+                      href="#"
+                      className="bg-slate-700 p-2 rounded shadow-slate-400 shadow-sm"
+                    >
+                      <img height={22} width={22} src="/svgs/twitter.svg" />
+                    </a>
+                    <a
+                      className="bg-slate-700 p-2 rounded shadow-slate-400 shadow-sm"
+                      href="#"
+                    >
+                      <img height={22} width={22} src="/svgs/github.svg" />
+                    </a>
+                    <a
+                      className="bg-slate-700 p-2 rounded shadow-slate-400 shadow-sm"
+                      href="#"
+                    >
+                      <img height={22} width={22} src="/svgs/linkedin.svg" />
+                    </a>
                   </div>
                 </div>
               </div>
-              <div>
-                <h1>Passionate to pursue the technology.</h1>
-                <p>
-                  I enjoy learning new things and try to overcome new challenges
-                  while analyzing how I improved through them.
+              <div className="text-left flex flex-col space-y-6">
+                <h1 className="text-6xl">
+                  Passionate to pursue <br />
+                  the technology.
+                </h1>
+                <p className="text-xl text-gray-400">
+                  I enjoy learning new things and try to overcome new
+                  <br /> challenges while analyzing how I improved through{" "}
+                  <br /> them.
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-2/4">right</div>
+          <div
+          style={{
+            backgroundImage:"url('https://necatikcl.dev/images/card-hello-right-memoji.png')",
+            backgroundSize:"cover",
+          }}
+           className="w-2/5 bg-yellow-500">
+            
+          </div>
         </div>
       </div>
     </div>
